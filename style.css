@@ -1,0 +1,53 @@
+.wcp-slider .slick-prev:before,
+.wcp-slider .slick-next:before {
+  color: #333;
+  font-size: 2rem;
+}
+.wcp-slider-product a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: flex-end;
+}
+.wcp-slider-product img {
+  margin: auto;
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+.wcp-slider-product .wcp-image{
+  flex:1;
+  overflow: hidden;
+}
+.wcp-slider .slick-list,
+.wcp-slider .slick-track,
+.wcp-slider-product {
+  height: 100%;
+}
+.slick-prev::before {
+  content: "\f341";
+  font-family: "Dashicons";
+}
+.slick-next::before {
+  content: "\f345";
+  font-family: "Dashicons";
+}
+.wcp-slider .title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000;
+  opacity: .9;
+}
+.wcp-slider .description {
+  font-family: "Roboto", sans-serif;
+  color: #000;
+  opacity: .9;
+  font-weight: bold;
+}
+.wcp-slider .price {
+  font-family: "Montserrat", sans-serif;
+  color: #000;
+  opacity: .9;
+  font-weight: 600;
+}
